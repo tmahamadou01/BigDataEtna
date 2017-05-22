@@ -6,5 +6,12 @@ define('DBHOST','127.0.0.1');
 define('DBUSER','root');
 define('DBPASS','root');
 define('DBNAME','bigdata');
+//RT @ChristiChat: Trump is my President!
 
+//This perfectly depicts the strategy of the loser left & media.
+
+#WaPo
+#Russia
+#FakeNews…
 ?>
+

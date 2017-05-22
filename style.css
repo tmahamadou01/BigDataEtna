@@ -1,0 +1,136 @@
+body {
+    background-color: #eee;
+    overflow-x: hidden;
+}
+
+.content-box .content {
+    padding: 20px;
+}
+
+.content-box {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 2px 0px #dadada;
+    box-shadow: 0px 1px 2px 0px #dadada;
+}
+
+nav.navbar {
+    position: relative;
+    padding: 0;
+    height: 70px;
+    background: #607d8b !important;
+    color: #fff !important;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1), 0 1.5px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1), 0 1.5px 6px rgba(0, 0, 0, 0.1);
+    z-index: 12;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    padding: 25px 25px;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #eee;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: transparent !important;
+    }
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.data-info .dataTables_wrapper {
+    background: #49ceff;
+    color: #fff;
+}
+
+thead > tr > th {
+    color: #fff;
+}
+
+.data-info .dataTables_wrapper tr {
+    color: #333;
+}
+
+.dataTables_wrapper {
+    -webkit-box-shadow: 0px 1px 2px 0px #dadada;
+    box-shadow: 0px 1px 2px 0px #dadada;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1;
+}
+
+.toolbar {
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 10px;
+}
+
+table.display {
+    border-bottom: 0 !important;
+    width: 100% !important;
+}
+
+table.dataTable {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.data-info thead tr {
+    background: #3cb6e3 !important;
+}
+
+table.display tbody tr, table.display tbody tr td {
+    background: #fff !important;
+    font-weight: 500;
+}
+
+.zero-m {
+    font-weight: 600;
+}
+
+.btn-options {
+    font-size: 23px;
+}
+
+.no-button {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    margin: 0px 8px;
+}
